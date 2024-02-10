@@ -1,12 +1,20 @@
 const { Model, DataTypes } = require('sequelize');
 
-const sequelize = require('../../UCLA-VIRT-FSF-PT-08-2023-U-LOLC/13-ORM/02-Challenge/Develop/config/connection.js');
+const sequelize = require('../config/connection.js');
 
 class Tag extends Model {}
 
 Tag.init(
   {
-   
+    id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
+    },
+    tag_name: {
+      type: DataTypes.STRING,
+    },
   },
   {
     sequelize,
