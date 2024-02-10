@@ -6,7 +6,7 @@ Worked with Object-Relational Mapping to create the backend of an e-commerce sit
 ## Preview
 
 
-Uploading category-routes.js - orm - Visual Studio Code 2024-02-10 03-14-25.mp4…
+https://github.com/venasven/orm/assets/141704995/a553b877-16d0-4282-a6a1-d86b1a2ae516
 
 
 ## Credits
